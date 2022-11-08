@@ -1,0 +1,161 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+    
+}
+
+body {
+    font-family: 'font', sans-serif;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
+    background-color: #070217;
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.link1 {
+    display: inline-block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 49px;
+    padding-right: 49px;
+    margin-right: 25px;
+}
+
+.link1:last-child {
+    margin-right: 0px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 80px 0;
+    width: 1170px;
+}
+
+.p {
+    margin: 0;
+    margin-bottom: 40px;
+    width: 872px;
+}
+
+.h1 {
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+
+/* p {
+    margin: 0px;
+    margin-bottom: 40px;
+    width: 872px;
+} */
+/* .otstup {
+    display: inline-block;
+    
+} */
+
+/* h1 {
+    margin-bottom: 40px;
+} */
+
+.grey {
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #f3f3f3;
+    margin-bottom: 40px;
+    
+}
+
+.grey:last-child {
+    margin-bottom: 0px;
+}
+
+.pgrey {
+    margin: 0;
+    margin-bottom: 10px;
+    width: 692px;
+}
+
+.h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+/* h2,h3 {
+    margin-bottom: 10px;
+}  */
+
+/* ul,ol {
+    padding-left: 15px;
+}
+
+li {
+    margin-bottom: 20px;
+} */
+.ul {
+    padding-left: 15px;
+}
+
+.li {
+    margin-bottom: 20px; 
+}
+
+.li:last-child {
+    margin-bottom: 0px;
+}
+
+.img {
+    margin-bottom: 40px;
+}
+
+.figure {
+    display: inline-block;
+    margin-bottom: 40px;
+    width: 872px;
+}
+/* figure {
+    display: inline-block;
+    margin-bottom: 40px;
+    width: 872px;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: gray;
+    
+} */
